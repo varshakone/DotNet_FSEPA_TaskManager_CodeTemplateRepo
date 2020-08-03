@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test-cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Functional</test-case-type>
+    <expected-output>True</expected-output>
+    <name>FunctionalTestFor_NewTask_Api</name>
+      <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Functional</test-case-type>
+    <expected-output>True</expected-output>
+    <name>FunctionalTestFor_NewTaskGroup_Api</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Functional</test-case-type>
+    <expected-output>True</expected-output>
+    <name>FunctionalTestFor_EditTask_Api</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases> 
+  <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Functional</test-case-type>
+    <expected-output>True</expected-output>
+    <name>FunctionalTestFor_GetAllTask_Api</name>
+      <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+ <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Functional</test-case-type>
+     <expected-output>True</expected-output>
+    <name>FunctionalTestFor_GetAllTaskGroups_Api</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+ <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Functional</test-case-type>
+      <expected-output>True</expected-output>
+    <name>FunctionalTestFor_GetTaskDashboard_Api</name>
+     <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Exception</test-case-type>
+    <expected-output>True</expected-output>
+    <name>ExceptionTestFor_NewTask_FailWithNullException</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Exception</test-case-type>
+    <expected-output>True</expected-output>
+    <name>ExceptionTestFor_NewTaskGroup_FailWithException</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+<cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Exception</test-case-type>
+    <expected-output>True</expected-output>
+    <name>ExceptionTestFor_EditTask_FailWithException</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+ <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Exception</test-case-type>
+    <expected-output>True</expected-output>
+    <name>ExceptionTestFor_GetAllTask_FailWithException</name>
+   <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+ <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Exception</test-case-type>
+    <expected-output>True</expected-output>
+    <name>ExceptionTestFor_GetTaskDashboard_FailWithException</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+ <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Exception</test-case-type>
+    <expected-output>True</expected-output>
+    <name>ExceptionTestFor_GetAllTaskGroups_FailWithException</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+ <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+     <expected-output>True</expected-output>
+    <name>Task BoundaryTestFor_TaskStartDateRequiredAsync</name>
+   <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+ <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>True</expected-output>
+    <name>BoundaryTestFor_TaskName_Required</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+ <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+     <expected-output>True</expected-output>
+    <name>BoundaryTestFor_TaskEndDate_Required</name>
+     <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+ <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+      <expected-output>True</expected-output>
+    <name>BoundaryTestFor_TaskEndDateGreaterThanTaskStartDate</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+ <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+     <expected-output>True</expected-output>
+    <name>BoundaryTestFor_TaskColorCode_Require</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+ <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+     <expected-output>True</expected-output>
+    <name>BoundaryTestFor_TaskGroup_Require</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+ <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+     <expected-output>True</expected-output>
+    <name>BoundaryTestFor_GroupName_Require</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+ <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+    <expected-output>True</expected-output>
+    <name>BoundaryTestFor_GroupIsActive_Require</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+ <cases xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.assessment.data.TestCase">
+    <test-case-type>Boundary</test-case-type>
+     <expected-output>True</expected-output>
+    <name>BoundaryTestFor_GroupColor_Require</name>
+    <weight>2</weight>
+    <mandatory>True</mandatory>
+    <desc>na</desc>
+  </cases>
+ </test-cases>
