@@ -9,7 +9,7 @@ using TaskManager.Entities;
 
 namespace TaskManager.Service.Controllers
 {
-    
+    [Route("api/Task")]
     [ApiController]
     public class TaskController : ControllerBase
     {
@@ -32,7 +32,7 @@ namespace TaskManager.Service.Controllers
         /// </summary>
         /// <param name="newtask"></param>
         /// <returns></returns>
-        [Route("api/Task/newtask")]
+        [Route("newtask")]
         [HttpPost]
         public async Task<ActionResult<String>> NewTask(TaskItem newtask)
         {
@@ -45,7 +45,7 @@ namespace TaskManager.Service.Controllers
         /// </summary>
         /// <param name="newgroup"></param>
         /// <returns></returns>
-        [Route("api/Task/newgroup")]
+        [Route("newgroup")]
         [HttpPost]
         public async Task<ActionResult<String>> NewTaskGroup(TaskGroup newgroup)
         {
@@ -57,8 +57,8 @@ namespace TaskManager.Service.Controllers
         /// </summary>
         /// <param name="task"></param>
         /// <returns></returns>
-        [Route("api/Task/edittask")]
-        [HttpPost]
+        [Route("edittask")]
+        [HttpPut]
         public async Task<ActionResult<long>> EditTask(TaskItem task)
         {
             //business logic goes here
@@ -69,8 +69,8 @@ namespace TaskManager.Service.Controllers
         /// post api to retrieve all task 
         /// </summary>
         /// <returns></returns>
-        [Route("api/Task/alltask")]
-        [HttpPost]
+        [Route("alltask")]
+        [HttpGet]
         public async Task< ActionResult<List<TaskItem>>> GetAllTask()
         {
             //business logic goes here
@@ -82,8 +82,8 @@ namespace TaskManager.Service.Controllers
         /// post api to retrieve all task dashboard
         /// </summary>
         /// <returns></returns>
-        [Route("api/Task/dashboard")]
-        [HttpPost]
+        [Route("dashboard")]
+        [HttpGet]
         public async Task<ActionResult<TaskDashboard>> GetTaskDashboard()
         {
             //business logic goes here
@@ -95,8 +95,8 @@ namespace TaskManager.Service.Controllers
         /// post api to retrieve all task groups
         /// </summary>
         /// <returns></returns>
-        [Route("api/Task/allgroups")]
-        [HttpPost]
+        [Route("allgroups")]
+        [HttpGet]
         public async Task<ActionResult<IEnumerable<TaskGroup>>> GetAllTaskGroups()
         {
             //business logic goes here
